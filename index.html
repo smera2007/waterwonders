@@ -1,0 +1,2056 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="mainPage.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>
+        <link href="mainPage.css" rel="stylesheet"/>
+        <title>Water Wonders</title>
+    </head>
+    <body class="principal">
+        <!--PARTE SUPERIOR-->
+        <header class="header">
+            <!--ENCABEZADO-->
+            <nav class="nav">
+                <a href="#" class="logo nav_link">Water Wonders</a>
+                <ul class="nav_menu">
+                    <li class="nav_menu_item"><button id="btn_about_us" class="nav_menu_link_resaltado">SOBRE NOSOTROS</button>
+                        <!--SUBMENU DE SOBRE NOSOTROS-->
+                        <!--<ul class="navegacion_submenu_header">-->
+                            <!--<hr class="separador1">-->
+                            <!--<li><a class="navegacion_submenu_link_header" href="#">¿QUIÉNES SOMOS?</a></li>-->
+                            <!--<hr class="separador1">-->
+                            <!--<li><a class="navegacion_submenu_link_header" href="#">MISIÓN</a></li>-->
+                            <!--<hr class="separador1">-->
+                            <!--<li><a class="navegacion_submenu_link_header" href="#">VISIÓN</a></li>-->
+                            <!--<hr class="separador1">-->
+                        <!--</ul>-->
+                        <!----------------------------->
+                    </li>
+                    <li class="nav_menu_item"><button id="resources" class="nav_menu_link_resaltado">RECURSOS</a></li>
+                    <li class="nav_menu_item"><button id="contact" class="nav_menu_link_resaltado">PROPUESTAS</a></li>
+                    <!--<li class="nav_menu_item"><a href="#" class="nav_menu_link_register">REGÍSTRATE</a></li>
+                    <p class="slash">/</p>
+                    <li class="nav_menu_item"><a href="#" class="nav_menu_link_login">INICIA SESIÓN</a></li>-->
+                </ul>
+            </nav>
+            <!-------------->
+            <!--BARRA DE NAVEGACIÓN--> 
+        <!--<div><p class = "cierre">-</p></div>-->
+            <div class="navegacion_div">
+                <ul class="navegacion_ul">
+                    <hr class="separadorBegin">
+                    <li><a href="#" category="all">TODO</a></li>
+                    <hr class="separador">
+                    <li><a href="#">REGIÓN</a>
+                        <ul class="navegacion_submenu">
+                            <!--<hr class="separador1">-->
+                            <p class = "cierre">-</p>
+                            <li><a href="#">ECUADOR - COSTA</a></li>
+                            <!--<hr class="separador1">-->
+                            <li><a href="#">ECUADOR - SIERRA</a></li>
+                            <!--<hr class="separador1">-->
+                            <li><a href="#">ECUADOR - ORIENTE</a></li>
+                            <!--<hr class="separador1">-->
+                            <!--<li><a href="#">ECUADOR - INSULAR</a></li>-->
+                            <!--<hr class="separador1">-->
+                            <li><a href="#">EE.UU - NORESTE</a></li>
+                            <!--<hr class="separador1">-->
+                            <li><a href="#">EE.UU - MEDIO OESTE</a></li>
+                            <!--<hr class="separador1">-->
+                        </ul>
+                    </li>
+                    <hr class="separador">
+                    <li><a href="#">CUERPOS DE AGUA</a>
+                        <ul class="navegacion_submenu">
+                            <p class = "cierre">-</p>
+                            <!--<hr class="separador1">-->
+                            <li><a href="#">DULCES</a></li>
+                            <!--<hr class="separador1">-->
+                            <li><a href="#">SALADOS</a></li>
+                            <!--<hr class="separador1">-->
+                        </ul>
+                    </li>
+                    <hr class="separador">
+                    <li><a href="#">PARA RECREACIÓN</a></li>
+                    <hr class="separador">
+                    <li><a href="#">MEDIDAS PREVENTIVAS</a>
+                        <ul class="navegacion_submenu">
+                            <!--<hr class="separador1">-->
+                            <p class = "cierre">-</p>
+                            <li><a class="navegacion_submenu_link_category" href="#">NO APTO PARA MENORES</a></li>
+                            <!--<hr class="separador1">-->
+                            <li><a href="#">NO APTO PARA CARDÍACOS</a></li>
+                            <!--<hr class="separador1">-->
+                            <li><a href="#">NO APTO PARA HIPERTENSOS</a></li>
+                            <!--<hr class="separador1">-->
+                        </ul>
+                    </li>
+                    <hr class="separador">
+                    <li><a href="#">FAUNA</a>
+                        <ul class="navegacion_submenu">
+                            <!--<hr class="separador1">-->
+                            <p class = "cierre">-</p>
+                            <li><a href="#">COMÚN</a></li>
+                            <!--<hr class="separador1">-->
+                            <li><a href="#">EXÓTICA</a></li>
+                            <!--<hr class="separador1">-->
+                            <li><a href="#">EN PELIGRO DE EXTINCIÓN</a></li>
+                            <!--<hr class="separador1">-->
+                        </ul>
+                    </li>
+                    <hr class="separador">
+                    <li><a href="#">NOVEDADES</a></li>
+                    <hr class="separadorEnd">
+                </ul>
+            </div>
+        <div><p class = "cierre">-</p></div>
+            <!----------------------->
+        </header>
+        <!------------------>
+        <!--INTRODUCCIÓN-->
+        <div class="intro">
+            <!--<div class="lines">
+                <div class="diamond"></div>
+            </div>-->
+            <div class="intro_enun_prin"><p class="intro_text"><b>¿Estás listo para sumergirte en un mundo de maravillas acuáticas?</b></p></div>
+            <div class="intro_enun_sec">
+                <!--<p class="intro_text2">
+                    ¡Prepárate para embarcarte en una aventura educativa y apasionante!
+                </p>
+                <br>-->
+                <p class="intro_text2">
+                    WaterWonders te invita a un emocionante viaje a través de lagos y lagunas. Descubre los secretos de estos ecosistemas vitales y cómo puedes marcar la diferencia en su conservación.
+                </p>
+            </div>
+            <div><p class = "cierre2">-</p></div>
+            <!--<div class="lines">
+                <div class="diamond"></div>
+            </div>-->
+        </div>
+        <!---------------->
+        <!--CATÁLOGO-->
+        <div class="catalogo">
+            <div class="elemento" category="sierra">
+                <button id="mostrar_popup1" class="element_link_img"><img src="lagunaVerdeCarchi.png" alt="Elemento 1"></button>
+                <button id="mostrar_popup1_1" class="element_link"><h2>LAGUNAS VERDES</h2></btton>
+                <!--<p>DESCRIPCIÓN_DEL_ELEMENTO_1</p>-->
+            </div>
+            <!--<div class="elemento">
+                <button id="mostrar_popup2" class="element_link_img"><img src="lagunaQuilotoa.png" alt="Elemento 2"></button>
+                <button id="mostrar_popup2_2" class="element_link"><h2>LAGUNA QUILOTOA</h2></button>-->
+                <!--<p>DESCRIPCIÓN_DEL_ELEMENTO_2</p>
+            </div>-->
+            <div class="elemento" category="medio_oeste">
+                <button id="mostrar_popup13" class="element_link_img"><img src="lagoErie.png" alt="Elemento 9"></button>
+                <button id="mostrar_popup13_13" class="element_link"><h2>LAGO ERIE</h2></button>
+                <!--<p>DESCRIPCIÓN_DEL_ELEMENTO_1</p>-->
+            </div>
+            <div class="elemento" category="sierra">
+                <button id="mostrar_popup3" class="element_link_img"><img src="lagunaColta.png" alt="Elemento 8"></button>
+                <button id="mostrar_popup3_3" class="element_link"><h2>LAGUNA COLTA</h2></button>
+                <!--<p>DESCRIPCIÓN_DEL_ELEMENTO_3</p>-->
+            </div>
+            <div class="elemento" category="sierra" category="dulce">
+                <button id="mostrar_popup4" class="element_link_img"><img src="lagunaCulebrillas.png" alt="Elemento 4"></button>
+                <button id="mostrar_popup4_4" class="element_link"><h2>LAGUNA CULEBRILLAS</h2></button>
+                <!--<p>DESCRIPCIÓN_DEL_ELEMENTO_1</p>-->
+            </div>
+            <div class="elemento" category="costa" category="dulce">
+                <button id="mostrar_popup5" class="element_link_img"><img src="lagunaCube.png" alt="Elemento 5"></button>
+                <button id="mostrar_popup5_5" class="element_link"><h2>LAGUNA DE CUBE</h2></button>
+                <!--<p>DESCRIPCIÓN_DEL_ELEMENTO_2</p>-->
+            </div>
+            <div class="elemento" category="costa" category="dulce">
+                <button id="mostrar_popup6" class="element_link_img"><img src="lagunaSulfurosa.png" alt="Elemento 6"></button>
+                <button id="mostrar_popup6_6" class="element_link"><h2>LAGUNA SULFUROSA DE AGUA BLANCA</h2></button>
+                <!--<p>DESCRIPCIÓN_DEL_ELEMENTO_3</p>-->
+            </div>
+            <div class="elemento" category="costa" category="dulce" category="salada">
+                <button id="mostrar_popup7" class="element_link_img"><img src="lagunaAmor.png" alt="Elemento 7"></button>
+                <button id="mostrar_popup7_7" class="element_link"><h2>LAGUNA DEL AMOR</h2></button>
+                <!--<p>DESCRIPCIÓN_DEL_ELEMENTO_1</p>-->
+            </div>
+            <div class="elemento" category="medio_oeste">
+                <button id="mostrar_popup8" class="element_link_img"><img src="lagoMichigan.png" alt="Elemento 9"></button>
+                <button id="mostrar_popup8_8" class="element_link"><h2>LAGO MICHIGAN</h2></button>
+                <!--<p>DESCRIPCIÓN_DEL_ELEMENTO_2</p>-->
+            </div>
+            <div class="elemento" category="sierra" category="dulce">
+                <button id="mostrar_popup9" class="element_link_img"><img src="lagunaYahuarcocha.png" alt="Elemento 3"></button>
+                <button id="mostrar_popup9_9" class="element_link"><h2>LAGUNA YAHUARCOCHA</h2></button>
+                <!--<p>DESCRIPCIÓN_DEL_ELEMENTO_3</p>-->
+            </div>
+            <div class="elemento" category="medio_oeste">
+                <button id="mostrar_popup10" class="element_link_img"><img src="lagoSuperior.png" alt="Elemento 9"></button>
+                <button id="mostrar_popup10_10" class="element_link"><h2>LAGO SUPERIOR</h2></button>
+                <!--<p>DESCRIPCIÓN_DEL_ELEMENTO_1</p>-->
+            </div>
+            <div class="elemento" category="oriente">
+                <button id="mostrar_popup11" class="element_link_img"><img src="lagunaPanacota3.png" alt="Elemento 9"></button>
+                <button id="mostrar_popup11_11" class="element_link"><h2>LAGUNA DE PANACOCHA</h2></button>
+                <!--<p>DESCRIPCIÓN_DEL_ELEMENTO_2</p>-->
+            </div>
+            <div class="elemento" category="noreste">
+                <button id="mostrar_popup12" class="element_link_img"><img src="lagoOntario.png" alt="Elemento 9"></button>
+                <button id="mostrar_popup12_12" class="element_link"><h2>LAGO ONTARIO</h2></button>
+                <!--<p>DESCRIPCIÓN_DEL_ELEMENTO_3</p>-->
+            </div>
+            <!--<div id="map"></div>-->
+        </div>
+        <!----------------------->
+        <!--VENTANAS_EMERGENTES-->
+        <!--DE SOBRE NOSOTROS-->
+
+        <div id="popup14" class="popup">
+            <div class="popup-contenido">
+                <div class="popup_title">
+                    <span class="cerrar" id="cerrarPopup14">ATRÁS</span>
+                    <h2>Sobre Nosotros</h2>
+                </div>
+                <div><p class = "cierre">-</p></div>
+                <!--<div class="popup_container_images">
+                    <img class="popup_images" src="lagunaVerdeCarchi.png"/>
+                    <img class="popup_images" src="lagunaVerdeCarchi2.png"/>
+                    <img class="popup_images" src="lagunaVerdeCarchi5.png"/>
+                    <img class="popup_images" src="lagunaVerdeCarchi4.png"/>
+                    <img class="popup_images" src="lagunaVerdeCarchi3.png"/>
+                </div>-->
+                <p class = "cierre3">-</p>
+                <div class="popup_body">
+                    <div class="popup_container_cards">
+                        <div class="analysis_cards2">
+                            <h4>¿Quiénes Somos?</h4>
+                            <p>
+                                Somos un equipo de alumnos del colegio Mariscal Sucre de la ciudad de Guayaquil. Nos definimos como un grupo de jóvenes amantes de la ciencia que buscan formas creativas y diferentes para hacer que las personas se interesen por los ecosistemas acuáticos que nos rodean y el cómo cuidarlos y protegerlos.
+                                Estamos convencidos de que hay belleza en todas las áreas naturales de nuestro planeta y, aunque no conozcamos en persona cada uno de estos mágicos lugares, queremos incentivar en los demás ese deseo de ir más allá y conocer a fondo las características de los cuerpos de agua de su interés, así como aprender qué pueden hacer para preservarlos y cuidarlos.
+                            </p>
+                        </div>
+                        <div class="analysis_cards2">
+                            <h4>Nuestra Misión</h4>
+                            <p>
+                                Proporcionar información crucial sobre la calidad del agua en lagos y lagunas, incluyendo datos médicos relevantes para la seguridad de los visitantes de estos cuerpos, como la temperatura de estos y la presencia de microorganismos. Ofrecemos detalles completos sobre las especies presentes en cada laguna, destacando aquellas que se encuentran en peligro de extinción, para que las personas puedan ser más conscientes y prudentes a la hora de realizar actividades en dichas zonas.
+                            </p>
+                        </div>
+                        <div class="analysis_cards2">
+                            <h4>Nuestra Visión</h4>
+                            <p>
+                                Obtener y ofrecer la mayor cantidad de información posible sobre los diferentes cuerpos de agua con el objetivo de volvernos un referente global y llegar al mayor número de personas. Informar a nuestros usuarios para disfrutar de las lagunas de manera responsable, pues creemos que al conocer y comprender mejor estos ambientes y su fragilidad, las personas se convertirán en defensores de la gran biodiversidad que allí habita.
+                                Visualizamos un mundo equipado con el conocimiento necesario para disfrutar de la belleza de nuestros cuerpos acuáticos de manera segura y sostenible, contribuyendo así a la preservación a largo plazo de estos valiosos tesoros naturales.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--------------------->
+        <!--DE RECURSOS-->
+        <div id="popup15" class="popup">
+            <div class="popup-contenido">
+                <div class="popup_title">
+                    <span class="cerrar" id="cerrarPopup15">ATRÁS</span>
+                    <h2>RECURSOS</h2>
+                </div>
+                <div><p class = "cierre">-</p></div>
+                <!--<div class="popup_container_images">
+                    <img class="popup_images" src="lagunaVerdeCarchi.png"/>
+                    <img class="popup_images" src="lagunaVerdeCarchi2.png"/>
+                    <img class="popup_images" src="lagunaVerdeCarchi5.png"/>
+                    <img class="popup_images" src="lagunaVerdeCarchi4.png"/>
+                    <img class="popup_images" src="lagunaVerdeCarchi3.png"/>
+                </div>-->
+                <p class = "cierre3">-</p>
+                <div class="popup_body">
+                    <div class="popup_container_resources">
+                        <div class="analysis_cards1">
+                            <p>
+                                The Editors of Encyclopaedia Britannica (2023) Lake Ontario. https://www.britannica.com/place/Lake-Ontario 
+                            </p>
+                        </div>
+                        <div class="analysis_cards1">
+                            <p>
+                                Government of Canada (2023) Eastern Lake Ontario: Current Conditions. https://weather.gc.ca/marine/weatherConditions-currentConditions_e.html?mapID=11&siteID=08203&stationID=45139 
+                            </p>
+                        </div>
+                        <div class="analysis_cards1">
+                            <p>
+                                The Canadian Encyclopedia (2006) Lake Ontario. https://www.thecanadianencyclopedia.ca/en/article/lake-ontario 
+                            </p>
+                        </div>
+                        <div class="analysis_cards1">
+                            <p>
+                                Great Lakes Guide (2020) Lake Ontario. https://greatlakes.guide/watersheds/ontario 
+                            </p>
+                        </div>
+                        <div class="analysis_cards1">
+                            <p>
+                                Viator (2023) Lago Ontario. https://www.viator.com/es-ES/Ontario-attractions/Lake-Ontario/overview/d263-a17388 
+                            </p>
+                        </div>
+                        <div class="analysis_cards1">
+                            <p>
+                                King's Printer for Ontario (2023) Las especies de peces más populares de Ontario.  https://www.destinationontario.com/es-mx/articles/ontarios-most-popular-fish-species 
+                            </p>
+                        </div>
+                        <div class="analysis_cards1">
+                            <p>
+                                PictureThis (2022) Top 20 plantas más comunes de Canadá, Ontario, a orillas del lago.
+                                https://www.picturethisai.com/es/region/Canada-Ontario-Lakeshore.html 
+                            </p>
+                        </div>
+                        <div class="analysis_cards1">
+                            <p>
+                                La Guía 2000 (2022) Lago Erie. https://geografia.laguia2000.com/hidrografia/lago-erie                                  
+                            </p>
+                        </div>
+                        <div class="analysis_cards1">
+                            <p>
+                                Viator (2023) Lago Erie.  https://www.viator.com/es-ES/Ohio-attractions/Lake-Erie/overview/d22226-a21990                            
+                            </p>
+                        </div>
+                        <div class="analysis_cards1">
+                            <p>
+                                Briceño V., Gabriela. (2021). Lago Erie. Recuperado el 6 octubre, 2023, de Euston96: https://www.euston96.com/lago-erie/ 
+                            </p>
+                        </div>
+                        <div class="analysis_cards1">
+                            <p>
+                                Ecuador Mi Tierra (2019) La Laguna De Culebrillas. https://ecuadormitierra.com/lagunas-del-ecuador2/lagunas-de-la-sierra/laguna-de-culebrillas/ 
+                            </p>
+                        </div>
+                        <div class="analysis_cards1">
+                            <p>
+                                ViajandoX (2023) Laguna de Culebrillas. https://ec.viajandox.com/canar/laguna-de-culebrillas-A788                               
+                            </p>
+                        </div>
+                        <div class="analysis_cards1">
+                            <p>
+                                Noticias del Cañar (2013) Interés en mitigar contaminación en lago Culebrillas. https://www.noticiasdelcanar.com/2013/08/15/interes-en-mitigar-contaminacion-en-lago-culebrillas/                         
+                            </p>
+                        </div>
+                        <div class="analysis_cards1">
+                            <p>
+                                Ecuador Mi Tierra (2019) Lagunas Verdes En El Carchi. https://ecuadormitierra.com/lagunas-del-ecuador2/lagunas-verdes-en-el-carchi/
+                            </p>
+                        </div>
+                        <div class="analysis_cards1">
+                            <p>
+                                ViajandoX (2023) Lagunas Verdes. https://ec.viajandox.com/tulcan/lagunas-verdes-A830
+                            </p>
+                        </div>
+                        <div class="analysis_cards1">
+                            <p>
+                                Provincia de Carchi (2023) Lagunas Verdes: Volcán Chiles. https://www.carchi.gob.ec/turistico/index.php/vive-el-carchi/turismo-carchi/destinos-turisticos/164-lagunas-verdes
+                            </p>
+                        </div>
+                        <div class="analysis_cards1">
+                            <p>
+                                Provincia de Carchi (2023) Atractivo: Volcán Chiles. https://www.carchi.gob.ec/turistico/index.php/vive-el-carchi/turismo-por-canton/tulcan/88-natural/198-atractivo-volcan-chiles 
+                            </p>
+                        </div>
+                        <div class="analysis_cards1">
+                            <p>
+                                Márquez C. (2018) La laguna de Colta, en recuperación. https://www.elcomercio.com/tendencias/lagunadecolta-recuperacion-chimborazo-arboles-reforestacion.html 
+                            </p>
+                        </div>
+                        <div class="analysis_cards1">
+                            <p>
+                                Ecuador Mi Tierra (2019) Laguna De Colta En Chimborazo. https://ecuadormitierra.com/lagunas-del-ecuador2/laguna-de-colta-en-chimborazo/ 
+                            </p>
+                        </div>
+                        <div class="analysis_cards1">
+                            <p>
+                                GoRaymi (2022) Laguna de Colta. https://www.goraymi.com/es-ec/chimborazo/colta/lagunas/laguna-colta-a9f1c900b 
+                            </p>
+                        </div>
+                        <div class="analysis_cards1">
+                            <p>
+                                Márquez C. (2022) Aves, peces, camarón andino… la laguna de Colta es un ecosistema de biodiversidad. https://youtopiaecuador.com/cuidado-del-ambiente/laguna-colta-biodiversidad-fauna-turismo-cuidado-medioambiente/ 
+                            </p>
+                        </div>
+                        <div class="analysis_cards1">
+                            <p>
+                                Santander T., I. Muñoz y A. Lara. (2006) Ecuador: informe anual. Censo Neotropical de Aves Acuáticas 2005 [en línea]. En LópezLanús B. y D.E. Blanco (eds.): El Censo Neotropical de Aves Acuáticas 2005; Una herramienta para la conservación. Wetlands International, Buenos Aires, Argentina http://www.wetlands.org/LatinAmerica/Sp/index.aspx                            
+                            </p>
+                        </div>
+                        <div class="analysis_cards1">
+                            <p>
+                                Chimbolema L. (2012) Laguna de Colta. https://www.calameo.com/books/001737894e6a9dcea03be 
+                            </p>
+                        </div>
+                        <div class="analysis_cards1">
+                            <p>
+                                INOCAR (2021) Atlas Marino Costero del Ecuador. https://www.inocar.mil.ec/web/index.php/publicaciones/atlas-marino-costero 
+                            </p>
+                        </div>
+                        <div class="analysis_cards1">
+                            <p>
+                                GoRaymi (2022) Yahuarcocha. https://www.goraymi.com/es-ec/imbabura/ibarra/lagunas/yahuarcocha-a7eaadc4a 
+                            </p>
+                        </div>
+                        <div class="analysis_cards1">
+                            <p>
+                                Ecuador Mi Tierra (2019) Laguna Del Amor En El Cantón Pasaje. https://ecuadormitierra.com/lagunas-del-ecuador2/laguna-del-amor-en-el-canton-pasaje/
+                            </p>
+                        </div>
+                        <div class="analysis_cards1">
+                            <p>
+                                ViajandoX (2023) Laguna del amor. https://ec.viajandox.com/pasaje/laguna-del-amor-A667
+                            </p>
+                        </div>
+                        <div class="analysis_cards1">
+                            <p>
+                                GoRaymi (2022) Laguna del amor. https://www.goraymi.com/es-ec/el-oro/pasaje/lagunas/laguna-amor-ayhw3sajo
+                            </p>
+                        </div>
+                        <div class="analysis_cards1">
+                            <p>
+                                NOAA National Geophysical Data Center (2005) The Great Lakes Basin Regional Bathymetry Map. https://www.ngdc.noaa.gov/mgg/image/images/greatlakesbasin.pdf 
+                            </p>
+                        </div>
+                        <div class="analysis_cards1">
+                            <p>
+                                NOAA National Geophysical Data Center, ECCC (2022) 2021 Climate Trends and Impacts Summary. https://glisa.umich.edu/wp-content/uploads/2022/07/2021-Climate-Trends-and-Impacts-Summary.pdf 
+                            </p>
+                        </div>
+                        <div class="analysis_cards1">
+                            <p>
+                                USGS (2014) Mercury in Fishes from 21 National Parks in the Western United States —Inter- and Intra-Park Variation in Concentrations and Ecological Risk. https://pubs.usgs.gov/of/2014/1051/pdf/ofr2014-1051.pdf 
+                            </p>
+                        </div>
+                        <div class="analysis_cards1">
+                            <p>
+                                US Government, Leanne L. Stahl, Blaine D. Snyder, Anthony R. Olsen , Jennifer L. Pitt (2008) Contaminants in fish tissue from US lakes and reservoirs: a national probabilistic study. https://19january2017snapshot.epa.gov/sites/production/files/2015-07/documents/fish-study-article2.pdf 
+                            </p>
+                        </div>
+                        <div class="analysis_cards1">
+                            <p>
+                                Dennis A. Albert (2003) Between Land and Lake: Michigan’s Great Lakes Coastal Wetlands. https://mnfi.anr.msu.edu/pdfs/BetweenLandAndLake.pdf 
+                            </p>
+                        </div>
+                        <div class="analysis_cards1">
+                            <p>
+                                U.S. Environmental Protection Agency (2014) Lake Superior Climate Change Impacts and Adaptation. https://www.epa.gov/sites/default/files/2015-11/documents/lake-superior-climate-change-impacts-report-201401-139pp.pdf 
+                            </p>
+                        </div>
+                        <div class="analysis_cards1">
+                            <p>
+                                Conrad D. Bue (1963) Principal Lakes of the United States. Sexta edición. https://pubs.usgs.gov/circ/1963/0476/report.pdf
+                            </p>
+                        </div>
+                        <div class="analysis_cards1">
+                            <p>
+                                Meteomatics (2023) Weather Data Shop. . https://www.meteomatics.com/en/download-weather-data/                             
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--------------->
+        <!--DE_SOLUCIONES-->
+        <div id="popup16" class="popup">
+            <div class="popup-contenido">
+                <div class="popup_title">
+                    <span class="cerrar" id="cerrarPopup16">ATRÁS</span>
+                    <h2>PROPUESTAS PARA LA PRESERVACIÓN DE LAGOS Y LAGUNAS</h2>
+                </div>
+                <div><p class = "cierre">-</p></div>
+                <!--<div class="popup_container_images">
+                    <img class="popup_images" src="lagunaVerdeCarchi.png"/>
+                    <img class="popup_images" src="lagunaVerdeCarchi2.png"/>
+                    <img class="popup_images" src="lagunaVerdeCarchi5.png"/>
+                    <img class="popup_images" src="lagunaVerdeCarchi4.png"/>
+                    <img class="popup_images" src="lagunaVerdeCarchi3.png"/>
+                </div>-->
+                <p class = "cierre3">-</p>
+                <div class="popup_body">
+                    <div class="popup_container_cards">
+                        <div class="analysis_cards2">
+                            <h4>Sistemas de filtración vegetal</h4>
+                            <p>
+                                Implementar sistemas de vegetación acuática en las orillas de las lagunas para absorber contaminantes químicos y nutrientes en exceso.
+                            </p>
+                        </div>
+                        <div class="analysis_cards2">
+                            <h4>Tecnología de monitoreo en tiempo real</h4>
+                            <p>
+                                Utilizar sensores y sistemas de monitoreo avanzados para detectar y responder rápidamente a derrames o contaminación en tiempo real.
+                            </p>
+                        </div>
+                        <div class="analysis_cards2">
+                            <h4>Barreras flotantes inteligentes</h4>
+                            <p>
+                                Desarrollar barreras flotantes equipadas con sensores y tecnología de limpieza automatizada para atrapar y eliminar residuos flotantes.
+                            </p>
+                        </div>
+                        <div class="analysis_cards2">
+                            <h4>Restauración de humedales</h4>
+                            <p>
+                                Restaurar y conservar humedales cercanos a las lagunas, ya que actúan como filtros naturales y refugios para la vida silvestre.
+                            </p>
+                        </div>
+                        <div class="analysis_cards2">
+                            <h4>Desarrollo de tecnologías limpias</h4>
+                            <p>
+                                Promover la investigación y desarrollo de tecnologías amigables con el medio ambiente para industrias cercanas a las lagunas.
+                            </p>
+                        </div>
+                        <div class="analysis_cards2">
+                            <h4>Educación ambiental</h4>
+                            <p>
+                                Implementar programas educativos para concienciar a la comunidad sobre la importancia de conservar las lagunas y reducir la contaminación.
+                            </p>
+                        </div>
+                        <div class="analysis_cards2">
+                            <h4>Fomentar la pesca sostenible</h4>
+                            <p>
+                                Regular la pesca en las lagunas para prevenir la sobreexplotación de especies y garantizar la sostenibilidad.
+                            </p>
+                        </div>
+                        <div class="analysis_cards2">
+                            <h4>Recolección de basura flotante con drones</h4>
+                            <p>
+                                Utilizar drones equipados con dispositivos de recolección de basura para limpiar la superficie del agua de manera eficiente.
+                            </p>
+                        </div>
+                        <div class="analysis_cards2">
+                            <h4>Tratamiento de aguas residuales</h4>
+                            <p>
+                                Mejorar los sistemas de tratamiento de aguas residuales urbanas e industriales para evitar que contaminantes lleguen a las lagunas.
+                            </p>
+                        </div>
+                        <div class="analysis_cards2">
+                            <h4>Zonas de amortiguamiento</h4>
+                            <p>
+                                Establecer zonas de amortiguamiento alrededor de las lagunas con regulaciones estrictas para evitar el desarrollo y la agricultura intensiva que puedan contribuir a la contaminación.
+                            </p>
+                        </div>
+                        <div class="analysis_cards2">
+                            <h4>Eco-Reserva</h4>
+                            <p>
+                                Accesibilidad limitada de lagunas por día, donde habrá que realizar la reserva en función del número de cupos disponibles.
+                            </p>
+                        </div>
+                        <div class="analysis_cards2">
+                            <h4>Mejorar el sistema de riego</h4>
+                            <p>
+                                Si se hace un uso eficiente del agua, habría un mejor rendimiento, ya que mucha agua se pierde por mal uso. Un ejemplo del buen uso es el desierto de Atacama, el cual usa el riego por goteo para regar plantas adaptadas al menor consumo.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!----------------->
+        <!--DEL_ELEMENTO_1-->
+        <div id="popup" class="popup">
+            <div class="popup-contenido">
+                <div class="popup_title">
+                    <span class="cerrar" id="cerrarPopup">ATRÁS</span>
+                    <h2>LAGUNAS VERDES</h2>
+                </div>
+                <div><p class = "cierre">-</p></div>
+                <div class="popup_container_images">
+                    <img class="popup_images" src="lagunaVerdeCarchi.png"/>
+                    <img class="popup_images" src="lagunaVerdeCarchi2.png"/>
+                    <img class="popup_images" src="lagunaVerdeCarchi5.png"/>
+                    <img class="popup_images" src="lagunaVerdeCarchi4.png"/>
+                    <img class="popup_images" src="lagunaVerdeCarchi3.png"/>
+                </div>
+                <p class = "cierre3">-</p>
+                <div class="popup_body">
+                    <div class="popup_container_cards">
+                        <div class="analysis_cards">
+                            <h4>Origen</h4>
+                            <p>
+                                Resultado de manantiales internos y vertientes del Volcán Chiles, su nombre es originado por el color verdoso de sus aguas.
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Ubicación</h4>
+                            <p>
+                                Ubicada en Tulcán en la provincia de Carchi, Ecuador.
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Altura</h4>
+                            <p>
+                                3900 msnm y a 2 Km de su punto de ascenso hacia el volcán.
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Dimensión</h4>
+                            <p>
+                                Extensión de 8 has y un diámetro de 1 a 1.5 km.
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Temperatura Promedio</h4>
+                            <p>
+                                5°C (CINCO GRADOS CELCIUS)
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Fauna</h4>
+                            <p>
+                                Trucha arco iris, el jambato, sapo marsupial, pato punteado, perdiz de páramo, cóndor, curiquingue, guarro, quilico, gallareta gli-gli, gaviota andina, zumbador, tórtola, conejo silvestre, lobo de páramo, soche, venado, raposa y chucuri. Destaca el trucha arco iris, pues es el que más se encuentra en esta laguna gracias a las temperaturas de la misma.
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Flora</h4>
+                            <p>
+                                La chuquiragua, la chilca, el sigse, pumamaqui, romerillo, laurel de cera, la sangre de drago, la adormidera y el sunfo (usado específicamente por los oradores con fines medicinales). Sobresale de esta área su flor nativa que es el bosque de frailejones.
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Actividades</h4>
+                            <p>
+                                Fotografía, caminata y apreciación de la flora y fauna.
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Accesibilidad</h4>
+                            <p>
+                                Si esas ubicado en Quito debes dirigirte al poblado de Tulcán, ya estando en ese poblado debes ir a Tufiño y a unos 22 km, el camino es estrecho y con curvas por lo que debes manejar con cuidado (33 minutos aprox. en carro), si prefieres caminata son unas 4 horas con 8 minutos aprox.).
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Requisitos para Visitar</h4>
+                            <p>
+                                Persona que no tenga problemas respiratorios, musculares, de hipertensión, renales y que no sea tan sensible a los cambios bruscos de temperatura.
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Contaminación</h4>
+                            <p>
+                                La contaminación de azufre que brota del suelo que circunda el Volcán Chiles.
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Advertencias</h4>
+                            <p>
+                                No es apto para bañarse pues al tener altos niveles de azufre pueden surgir diversos problemas, ya sea a nivel ocular como respiración con silbido o falta de aire; también podría causar dolor de cabeza, náuseas o vómito.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--DEL_ELEMENTO_13-->
+        <div id="popup13" class="popup">
+            <div class="popup-contenido">
+                <div class="popup_title">
+                    <span class="cerrar" id="cerrarPopup13">ATRÁS</span>
+                    <h2>LAGO ERIE</h2>
+                </div>
+                <div><p class = "cierre">-</p></div>
+                <div class="popup_container_images">
+                    <img class="popup_images" src="lagoErie.png"/>
+                    <img class="popup_images" src="lagoErie2.png"/>
+                    <img class="popup_images" src="lagoErie3.png"/>
+                    <img class="popup_images" src="lagoErie4.png"/>
+                    <img class="popup_images" src="lagoErie5.png"/>
+                </div>
+                <p class = "cierre3">-</p>
+                <div class="popup_body">
+                    <div class="popup_container_cards">
+                        <div class="analysis_cards">
+                            <h4>Ubicación</h4>
+                            <p>
+                                Se sitúa en el límite internacional entre Canadá y Estados Unidos. La orilla norte pertenece a la provincia canadiense de Ontario, mientras que la parte sur se reparte entre los estados de Michigan, Ohio, Pennsylvania y Nueva York.
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Tipo de Agua</h4>
+                            <p>
+                                Lago de Agua Dulce
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Origen</h4>
+                            <p>
+                                Fue originado por un glaciar que estaba en movimiento. Expertos consideran que el lago tiene menos de 4.000 años.                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Superficie</h4>
+                            <p>
+                                25,667 km²
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Extensión</h4>
+                            <p>
+                                388 km de largo y su ancho es de 92 km
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Volumen</h4>
+                            <p>
+                                488 km³
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Profundidad máxima</h4>
+                            <p>
+                                64 metros en su punto más profundo
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Afluentes</h4>
+                            <p>
+                                Desagua por el noreste hacia el Lago Ontario a través del río Niágara
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Latitud y Longitud</h4>
+                            <p>
+                                42.1432332 / -81.2396326
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Altitud</h4>
+                            <p>
+                                199 metros sobre el nivel del mar.
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Ancho Máximo</h4>
+                            <p>
+                                92km
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Clima</h4>
+                            <p>
+                                Frío y Templado
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Problemas Ambientales</h4>
+                            <p>
+                                Especies invasivas como las almejas amenazan el ecosistema del lago. Otras especies invasoras como el pez gobio y la carpa herbívora se han incrementado sin tener en cuenta la fragilidad del ecosistema. El ciclo continuo de fósforo como alimento para las algas y su descomposición subsiguiente contribuyeron al desarrollo de zonas muertas ecológicamente.
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Temperatura del Agua</h4>
+                            <p>
+                                Oscila entre los 21° y los 24° centígrados
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Actividades que se Practican</h4>
+                            <p>
+                                Paseos en bote, pesca, natación, esquí acuático, vela, ciclismo, caminatas guiadas y tomar el sol.
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Fauna</h4>
+                            <p>  
+                                Peces: Trucha arco iris, el walleye, pickerel, perca, truchas, salmón, pescado blanco, eperlano arco iris, la perca blanco y la carpa común. 
+                                Aves: Patos, gaviotas y aves de rapiña
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Flora</h4>
+                            <p>
+                                Loto de agua, lirio de agua, cola de caballo y una variedad de algas. Están rodeados de pastos, juncias y plantas emergentes.
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Utilidad a Nivel Económico y Comercial</h4>
+                            <p>
+                                Casi 3 millones de personas obtienen agua potable de la cuenca central del lago Erie, tanto para consumo como para realizar actividades diarias. Además gran parte de su cuenca es usada para fines agrícolas y para grandes pesquerías comerciales y recreativas.
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Peligro</h4>
+                            <p>
+                                Recibe grandes insumos de aguas residuales y escorrentía agrícola.
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Propuestas para Preservación del Ambiente</h4>
+                            <p>
+                                Prevención de algas tóxicas y molestas: Manejar el exceso de concentraciones de nutrientes en los lagos para prevenir algas tóxicas y molestas. Debido a que este lago recibe grandes cantidades de fósforo de muchas fuentes, incluida la escorrentía de tierras agrícolas, centros urbanos, plantas de tratamiento de aguas residuales y sistemas sépticos.
+                                <br><br>
+                                Involucrar a los pueblos indígenas: Apoyar la participación de los Pueblos Indígenas en los procesos de toma de decisiones y acciones para restaurar y proteger la calidad del agua de los lagos, dichos pueblos son: Kentaientonga, Honniasont y los Rigué.
+                            </p>
+                        </div>
+                    </div>
+                    <!--<div class="solutions_container">
+                        <div class="solutions_container_space">
+                            <h4>Propuestas para Preservación del Ambiente</h4>
+                            <p>
+                                Prevención de algas tóxicas y molestas: Manejar el exceso de concentraciones de nutrientes en los lagos para prevenir algas tóxicas y molestas. Debido a que este lago recibe grandes cantidades de fósforo de muchas fuentes, incluida la escorrentía de tierras agrícolas, centros urbanos, plantas de tratamiento de aguas residuales y sistemas sépticos.
+                                <br><br>
+                                Involucrar a los pueblos indígenas: Apoyar la participación de los Pueblos Indígenas en los procesos de toma de decisiones y acciones para restaurar y proteger la calidad del agua de los lagos, dichos pueblos son: Kentaientonga, Honniasont y los Rigué.
+                            </p>
+                        </div>
+                    </div>-->
+                </div>
+            </div>
+        </div>
+        <!--DEL_ELEMENTO_2-->
+        <!--<div id="popup2" class="popup">
+            <div class="popup-contenido">
+                <div class="popup_title">
+                    <span class="cerrar" id="cerrarPopup2">ATRÁS</span>
+                    <h2>LAGUNA QUILOTOA</h2>
+                </div>
+                <div><p class = "cierre">-</p></div>
+                <div class="popup_container_images">
+                    <img class="popup_images" src="lagunaQuilotoa.png"/>
+                    <img class="popup_images" src="lagunaQuilotoa2.png"/>
+                    <img class="popup_images" src="lagunaQuilotoa3.png"/>
+                    <img class="popup_images" src="lagunaQuilotoa4.png"/>
+                    <img class="popup_images" src="lagunaQuilotoa5.png"/>
+                </div>
+                <p class = "cierre3">-</p>
+                <div class="popup_body">
+                    <div class="popup_container_cards">
+                        <div class="analysis_cards">
+                            <h4>Origen</h4>
+                            <p>
+                                Resultado de manantiales internos y vertientes del Volcán Chiles, su nombre es originado por el color verdoso de sus aguas.
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Ubicación</h4>
+                            <p>
+                                Ubicada en Tulcán en la provincia de Carchi, Ecuador.
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Altura</h4>
+                            <p>
+                                3900 msnm y a 2 Km de su punto de ascenso hacia el volcán.
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Dimensión</h4>
+                            <p>
+                                Extensión de 8 has y un diámetro de 1 a 1.5 km.
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Temperatura Promedio</h4>
+                            <p>
+                                5°C (CINCO GRADOS CELCIUS)
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Fauna</h4>
+                            <p>
+                                Trucha arco iris, el jambato, sapo marsupial, pato punteado, perdiz de páramo, cóndor, curiquingue, guarro, quilico, gallareta gli-gli, gaviota andina, zumbador, tórtola, conejo silvestre, lobo de páramo, soche, venado, raposa y chucuri. Destaca el trucha arco iris, pues es el que más se encuentra en esta laguna gracias a las temperaturas de la misma.
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Flora</h4>
+                            <p>
+                                La chuquiragua, la chilca, el sigse, pumamaqui, romerillo, laurel de cera, la sangre de drago, la adormidera y el sunfo (usado específicamente por los oradores con fines medicinales). Sobresale de esta área su flor nativa que es el bosque de frailejones.
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Actividades</h4>
+                            <p>
+                                Fotografía, caminata y apreciación de la flora y fauna.
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Accesibilidad</h4>
+                            <p>
+                                Si esas ubicado en Quito debes dirigirte al poblado de Tulcán, ya estando en ese poblado debes ir a Tufiño y a unos 22 km, el camino es estrecho y con curvas por lo que debes manejar con cuidado (33 minutos aprox. en carro), si prefieres caminata son unas 4 horas con 8 minutos aprox.).
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Requisitos para Visitar</h4>
+                            <p>
+                                Persona que no tenga problemas respiratorios, musculares, de hipertensión, renales y que no sea tan sensible a los cambios bruscos de temperatura.
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Contaminación</h4>
+                            <p>
+                                La contaminación de azufre que brota del suelo que circunda el Volcán Chiles.
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Advertencias</h4>
+                            <p>
+                                No es apto para bañarse pues al tener altos niveles de azufre pueden surgir diversos problemas, ya sea a nivel ocular como respiración con silbido o falta de aire; también podría causar dolor de cabeza, náuseas o vómito.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>-->
+        <!--DEL_ELEMENTO_3-->
+        <div id="popup3" class="popup">
+            <div class="popup-contenido">
+                <div class="popup_title">
+                    <span class="cerrar" id="cerrarPopup3">ATRÁS</span>
+                    <h2>LAGUNA DE COLTA</h2>
+                </div>
+                <div><p class = "cierre">-</p></div>
+                <div class="popup_container_images">
+                    <img class="popup_images" src="lagunaColta.png"/>
+                    <img class="popup_images" src="lagunaColta2.png"/>
+                    <img class="popup_images" src="lagunaColta3.png"/>
+                    <img class="popup_images" src="lagunaColta4.png"/>
+                    <img class="popup_images" src="lagunaColta5.png"/>
+                </div>
+                <p class = "cierre3">-</p>
+                <div class="popup_body">
+                    <div class="popup_container_cards">
+                        <div class="analysis_cards">
+                            <h4>Otro Nombre</h4>
+                            <p>
+                                Kulta Kucha (Laguna del Pato)                            
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Ubicación</h4>
+                            <p>
+                                Cantón Colta de la provincia de Chimborazo
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Latitud y Longitud</h4>
+                            <p>
+                                -1.7417427 / -78.7529783
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Tipo de Laguna</h4>
+                            <p>
+                                Laguna de Agua Dulce                            
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Origen</h4>
+                            <p>
+                                Formado por el bloqueo del río Colta por una corriente de lava.
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Superficie</h4>
+                            <p>
+                                275 hectáreas.
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Extensión</h4>
+                            <p>
+                                2,8 km de largo y 1 km de ancho.                            
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Profundidad Máxima</h4>
+                            <p>
+                                3,5 m.
+                            </p>
+                        </div>
+                        <!--<div class="analysis_cards">
+                            <h4>Afluentes</h4>
+                            <p>
+                                Río Guamote                           
+                            </p>
+                        </div>-->
+                        <div class="analysis_cards">
+                            <h4>Altitud</h4>
+                            <p>
+                                3420 msnm                            
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Ancho Máximo</h4>
+                            <p>
+                                1,1km                            
+                            </p>
+                        </div>
+                        <!--<div class="analysis_cards">
+                            <h4>Clima</h4>
+                            <p>
+                                Templado                      
+                            </p>
+                        </div>-->
+                        <div class="analysis_cards">
+                            <h4>Temperatura</h4>
+                            <p>
+                                Oscila entre los 12°C y los 15°C                            
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Actividades que se Practican</h4>
+                            <p>
+                                Caminatas, cabalgatas, fotografía, paseos en botes, camping, y muy cerca, se puede observar a los indígenas realizando labores agrícolas que hacen parte de la convivencia comunitaria.
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Advertencia</h4>
+                            <p>
+                                No apto para personas con hipertensión o problemas respiratorios.                      
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Fauna</h4>
+                            <p>
+                                Compuesto principalmente por: 20 especies de aves como patos (mayor cant. son de la familia anatidae), garzas, gorriones, mirlos, gaviotas, garcetas.
+                                3 especies de peces e incluso un pequeño camarón andino.
+                                En las orillas hay ovejas, alpacas y llamas en las pampas verdes.
+                                19 especies representan preocupación menor y el ave zambullidor plateado está en estado vulnerable.
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Flora</h4>
+                            <p>
+                                En la laguna: La totora (planta herbácea perenne acuática) La mayor parte de la laguna está rodeada por totora, pero el resto se encuentra bastante alterado. Hay presencia de tierras agrícolas, especies exóticas como el eucalipto.
+                                Alrededores: Árboles de marco, quishuar, yagual, aliso y otras variedades de árboles nativos.                      
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Propuestas para Preservación del Ambiente</h4>
+                            <p>
+                                Eco-reserva:  Es importante preservar la anidación del ave  zambullidor, por lo que sólo se puede observar desde lejos y con prismáticos, cuando el clima lo permita. Puede tener una temporada de reproducción extensa, desde el inicio de la primavera hasta mediados del otoño.
+                                <br><br>
+                                Zonas de amortiguamiento: Con el objetivo de evitar que los cultivos no sequen el agua del lago y así evitar que la flora y fauna tenga espacio suficiente dentro del agua para subsistir.
+                                <br><br>
+                                Mejorar el sistema de riego: El agua en este lago es usada por los habitantes para su uso y agricultura. Debido a la presencia de cultivos, habría que optimizar el sistema de riego que no solo beneficia a la misma agricultura, sino también al lago por la mínima pérdida de líquido.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--DEL_ELEMENTO_4-->
+        <div id="popup4" class="popup">
+            <div class="popup-contenido">
+                <div class="popup_title">
+                    <span class="cerrar" id="cerrarPopup4">ATRÁS</span>
+                    <h2>LAGUNA DE CULEBRILLAS</h2>
+                </div>
+                <div><p class = "cierre">-</p></div>
+                <div class="popup_container_images">
+                    <img class="popup_images" src="lagunaCulebrillas.png"/>
+                    <img class="popup_images" src="lagunaCulebrillas2.png"/>
+                    <img class="popup_images" src="lagunaCulebrillas3.png"/>
+                    <img class="popup_images" src="lagunaCulebrillas4.png"/>
+                    <img class="popup_images" src="lagunaCulebrillas5.png"/>
+                </div>
+                <p class = "cierre3">-</p>
+                <div class="popup_body">
+                    <div class="popup_container_cards">
+                        <div class="analysis_cards">
+                            <h4>Origen</h4>
+                            <p>
+                                Se dice en una leyenda que se originó gracias a que en ella se sumergió una serpiente mítica de los cañaris.
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Ubicación</h4>
+                            <p>
+                                Se sitúa en la parroquia Juncal, Cañar, Ecuador, en los páramos contiguos al nudo de Azuay, a 40 km aproximadamente del Cantón Cañar vía Durán-El Tambor.
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Latitud y Longitud</h4>
+                            <p>
+                                -2.4227045 / -78.8594457                            
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Altura</h4>
+                            <p>
+                                4.042 msnm
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Dimensión</h4>
+                            <p>
+                                Es de 1400 de largo por 500 m de ancho.                            
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Temperatura</h4>
+                            <p>
+                                6 °C a 15 °C, en la noche puede llegar a -0 °C                            
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Advertencia</h4>
+                            <p>
+                                No es apta para bañarse ya que las temperaturas son muy bajas.                            
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Requisitos para Visitar</h4>
+                            <p>
+                                Que no presente problemas respiratorios, hipertensión, musculares, que no sean sensibles a los cambios de clima.                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Contaminación</h4>
+                            <p>
+                                Los excrementos del ganado vacuno que pastan en la zona.                            
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Actividades</h4>
+                            <p>
+                                Caminata, fogata, acampar, pesca.                            
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Fauna</h4>
+                            <p>
+                                Alrededor de la Laguna: Alpacas negras, marrones, grises, halcones, curiquingues, tucanes andinos (en peligro de extinción) y el loro pecho dorado.                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Flora</h4>
+                            <p>
+                                Alrededor de la Laguna: La pajonal, piedra andesita, Podocarpus, diversas especies de Polylepis, cedro, laurel, palo prieto e ishpingo.                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Propuestas para Preservación del Ambiente</h4>
+                            <p>
+                                Educación ambiental: Se busca informar que los tucanes andinos están en peligro de extinción y enfatizar que es debido a la deforestación y caza excesiva por su llamativa apariencia.
+                                <br><br>
+                                Eco-Reserva: Para evitar la perturbación excesiva del ecosistema en este lago, aunque se podría considerar la presencia humana de lejos.
+                                <br><br>
+                                Recolección de basura flotante con drones: Recoger desechos, siendo recomendable el uso de drones y no humano por las bajas temperaturas que presenta.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--DEL_ELEMENTO_5-->
+        <div id="popup5" class="popup">
+            <div class="popup-contenido">
+                <div class="popup_title">
+                    <span class="cerrar" id="cerrarPopup5">ATRÁS</span>
+                    <h2>LAGUNA DE CUBE</h2>
+                </div>
+                <div><p class = "cierre">-</p></div>
+                <div class="popup_container_images">
+                    <img class="popup_images" src="lagunaCube.png"/>
+                    <img class="popup_images" src="lagunaCube2.png"/>
+                    <img class="popup_images" src="lagunaCube3.png"/>
+                    <img class="popup_images" src="lagunaCube4.png"/>
+                    <img class="popup_images" src="lagunaCube5.png"/>
+                </div>
+                <p class = "cierre3">-</p>
+                <div class="popup_body">
+                    <div class="popup_container_cards">
+                        <div class="analysis_cards">
+                            <h4>Superficie</h4>
+                            <p>
+                                112.67 hectáreas en las cuales 32 hectáreas conforman al espejo de agua.                         
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Temperatura</h4>
+                            <p>
+                                25° C
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Ubicación</h4>
+                            <p>
+                                Provincia de Esmeraldas, Cantón Quinindé                            
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Latitud y Longitud</h4>
+                            <p>
+                                0,394276 / -79,6472224
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Altitud</h4>
+                            <p>
+                                350 msnm                   
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Afluentes</h4>
+                            <p>
+                                Río Colorado Turbio
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Población Alrededor</h4>
+                            <p>
+                                Una comunidad humana relacionada con la laguna, 42 familias procedentes de la provincia de Manabí.                            
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Factores que Afectan el Ambiente</h4>
+                            <p>
+                                Tala de madera, erosión del suelo                            
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Profundidad</h4>
+                            <p>
+                                7 metros de profundidad, puede llegar a 40 metros                            
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Apto para Bañarse</h4>
+                            <p>
+                                Si es apto para bañarse pero se debe seguir las instrucciones de los guías.
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Accesibilidad</h4>
+                            <p>
+                                18Km desde la carretera principal hasta la Laguna de Cube                      
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Requisitos para Visitar</h4>
+                            <p>
+                                Saber nadar en aguas profundas ya que su profundidad puede llegar hasta los 40 metros en la zona más alejada.
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Características Ecológicas</h4>
+                            <p>
+                                Se divide en 2 zonas: Zona inundada y Zona inundable                            
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Fauna</h4>
+                            <p>
+                                Entre las aves: Pato criollo, Yaguasa, Jacana centroamericana, Martinete enano, garza blanca grande, Garceta nivosa, Garceta ganadera.
+                                Tres especies de vertebrados: Caimán crocodylus, Lontra longicaudis y Pandion haliaetus.
+                                Especies amenazadas: El caimán de anteojos, Lontra longicaudis, Pandion haliaetus.                            
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Flora</h4>
+                            <p>
+                                Zona inundada:Se encontró especies herbáceas que van desde los 10 cm a los 2 m de alto y se registraron: el pasto, la caña guadua, la paja toquilla y la higuerilla.
+                                Estrato arbóreo cubierto de epifitas como bromelias, briofitos, orquídeas y trepadoras entre las palmas encontramos el pambil, el cade, la mocora, la palma real y la boya,
+                                Zona inundable: Tiene una franja pantanosa dominada por ciperáceas que en la parte oriental del humedal forma una masa continua, constituyendo un amplio hidrosere. Se observa abundante vegetación semiacuática que favorece la reproducción y anidación de aves acuáticas, algunas de ellas migratorias.                            
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Propuestas para Preservación del Ambiente</h4>
+                            <p>
+                                Restauración de humedales: Mucha parte de los animales que se encuentran en peligro o en amenazas en esta laguna son por problemas de hábitat, por eso deberíamos restaurar el humedal para poder conservar las especies de la laguna.
+                                <br><br>
+                                Eco-reserva: Poner horas en la que se puede visitar la laguna para poder ayudar a la restauración del humedal y la preservación de los animales que habitan en él.
+                                <br><br>
+                                Restauración de humedales: Sí existe contaminación por efectos de los productos químicos en las orillas del humedal causando afectación, principalmente, a las especies que sirven de alimento a las familias del sector.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--DEL_ELEMENTO_6-->
+        <div id="popup6" class="popup">
+            <div class="popup-contenido">
+                <div class="popup_title">
+                    <span class="cerrar" id="cerrarPopup6">ATRÁS</span>
+                    <h2>LAGUNA SULFUROSA DE AGUA BLANCA</h2>
+                </div>
+                <div><p class = "cierre">-</p></div>
+                <div class="popup_container_images">
+                    <img class="popup_images" src="lagunaSulfurosa.png"/>
+                    <img class="popup_images" src="lagunaSulfurosa2.png"/>
+                    <img class="popup_images" src="lagunaSulfurosa3.png"/>
+                    <img class="popup_images" src="lagunaSulfurosa4.png"/>
+                    <img class="popup_images" src="lagunaSulfurosa5.png"/>
+                </div>
+                <p class = "cierre3">-</p>
+                <div class="popup_body">
+                    <div class="popup_container_cards">
+                        <div class="analysis_cards">
+                            <h4>Temperatura</h4>
+                            <p>
+                                23°C - 25°C                            
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Ubicación</h4>
+                            <p>
+                                Cantón de Puerto López                            
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Latitud y Longitud</h4>
+                            <p>
+                                -1,53267 / -80,73785
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Altitud</h4>
+                            <p>
+                                350 msnm                           
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Profundidad</h4>
+                            <p>
+                                Su profundidad puede variar entre 1.20 metros a 4 metros en la parte central.                            
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Especies</h4>
+                            <p>
+                                Anfibios y reptiles tales como: tortuga, caimán y sapo terrestre; aves como: garza blanca, martín pescador, vencejo, tortolita azulada, cacique y golondrina.
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Actividades</h4>
+                            <p>
+                                Se puede pasear en canoa, realizar pesca deportiva u observar caimanes en la noche.                           
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Origen</h4>
+                            <p>
+                                Por la concentración de del azufre que proviene de una emanación volcánica subterránea.                            
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Tipo de Laguna</h4>
+                            <p>
+                                Laguna de Agua Dulce
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Apto para Nadar</h4>
+                            <p>
+                                Si es apto para nadar, sus aguas se le asocia a aguas medicinales.                           
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Clima</h4>
+                            <p>
+                                Se divide en dos períodos: Cálido lluvioso (Enero hasta mayo) y Periodo seco (Junio hasta diciembre).                           
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Accesibilidad</h4>
+                            <p>
+                                Desde Puerto López se puede tomar autobuses que realizan tour, la distancia es de 10 km.
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Propuestas para Preservación del Ambiente</h4>
+                            <p>
+                                Fomentar la pesca sostenible: Ya que hay muchas especies acuáticas que viven en este lugar y, algunas como la tortuga están en peligro de extinción, con la finalidad de conservar estas especies y no alterar el ecosistema que rodea a la laguna.
+                                <br><br>
+                                Mejorar el sistema de riego: Se debería optimizar el uso del agua debido a la presencia de población cercana que puede ser usado por sus comunidades cercanas a la laguna para sus cultivos o sus usos diarios.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--DEL_ELEMENTO_7-->
+        <div id="popup7" class="popup">
+            <div class="popup-contenido">
+                <div class="popup_title">
+                    <span class="cerrar" id="cerrarPopup7">ATRÁS</span>
+                    <h2>LAGUNA DEL AMOR</h2>
+                </div>
+                <div><p class = "cierre">-</p></div>
+                <div class="popup_container_images">
+                    <img class="popup_images" src="lagunaAmor.png"/>
+                    <img class="popup_images" src="lagunaAmor2.png"/>
+                    <img class="popup_images" src="lagunaAmor3.png"/>
+                    <img class="popup_images" src="lagunaAmor4.png"/>
+                    <img class="popup_images" src="lagunaAmor5.png"/>
+                </div>
+                <p class = "cierre3">-</p>
+                <div class="popup_body">
+                    <div class="popup_container_cards">
+                        <div class="analysis_cards">
+                            <h4>Origen</h4>
+                            <p>
+                                Alimentada por el Río Huizho                            
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Ubicación</h4>
+                            <p>
+                                Se encuentra ubicado entre las parroquias Huitzo y Casacay en el Km 7 vía Cuenca.
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Latitud y Longitud</h4>
+                            <p>
+                                -3,75592 / -79,5300443
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Altura</h4>
+                            <p>
+                                180 msnm                          
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Anchura</h4>
+                            <p>
+                                30 m aprox.                            
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Temperatura del Agua</h4>
+                            <p>
+                                Su temperatura oscila entre los 22.8 °C y 26.5 °C.              
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Apto para bañarse</h4>
+                            <p>
+                                Sí es apta para bañarse, sin embargo, no es apta para el consumo.                 
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Requisitos para Visitar</h4>
+                            <p>
+                                No tener problemas musculares.
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Accesibilidad</h4>
+                            <p>
+                                Del cantón Pasaje hasta Huizho, te tomaras de 30 a 40 minutos hasta llegar. Se puede ir mediante bus o automóvil.
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Actividades</h4>
+                            <p>
+                                Se puede realizar turismo de aventura, senderismo, scout, camping, fotografía y natación.
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Fauna</h4>
+                            <p>
+                                Podemos encontrar ardillas, armadillos, mirlos, colibríes, serpientes equis, lagartijas y el Chilalo (Furnarius leucopus).
+                                Peligro de extinción: La guanta
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Flora</h4>
+                            <p>
+                                Hay bosques naturales, laurel, guarumo, trepadoras, cacao, caña guadua, así como los árboles de Anona de monte, entre otros.                
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Propuestas para la Preservación del Ambiente</h4>
+                            <p>
+                                Educación ambiental: Enseñanza de la disminución de la guanta, animal muy preciado por su carne, además de los armadillos, siendo necesario hacer campañas públicas para preservar las especies.
+                                <br><br>
+                                Eco-Reserva: Esta laguna está rodeada de bosques naturales, los cuales deberían ser protegidos para conservar la naturalidad del espacio y así, poder rescatar la flora y el hábitat de varios animales.
+                                <br><br>
+                                Barreras flotantes inteligentes: Debido a que este lago recibe varios turistas, la limpieza usando barreras flotantes o incluso drones sería muy útil para prevenir la contaminación.
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Flora En Peligro de Extinción</h4>
+                            <p>
+                                El cacao nativo, pueden estar en peligro en ciertas regiones debido a la pérdida de hábitat.
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Fauna Común</h4>
+                            <p>
+                                El laurel, el guarumo, la caña guadua y los árboles de Anona de monte, podrían considerarse comunes.                            
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--DEL_ELEMENTO_8-->
+        <div id="popup8" class="popup">
+            <div class="popup-contenido">
+                <div class="popup_title">
+                    <span class="cerrar" id="cerrarPopup8">ATRÁS</span>
+                    <h2>LAGO MICHIGAN</h2>
+                </div>
+                <div><p class = "cierre">-</p></div>
+                <div class="popup_container_images">
+                    <img class="popup_images" src="lagoMichigan.png"/>
+                    <img class="popup_images" src="lagoMichigan2.png"/>
+                    <img class="popup_images" src="lagoMichigan3.png"/>
+                    <img class="popup_images" src="lagoMichigan4.png"/>
+                    <img class="popup_images" src="lagoMichigan5.png"/>
+                </div>
+                <p class = "cierre3">-</p>
+                <div class="popup_body">
+                    <div class="popup_container_cards">
+                        <div class="analysis_cards">
+                            <h4>Ubicación</h4>
+                            <p>
+                                Está rodeado por los estados de Indiana, Illinois, Wisconsin y Míchigan, que recibe su nombre del lago.                       
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Latitud y Longitud</h4>
+                            <p>
+                                43.7075935 / -87.0556641                   
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Altitud</h4>
+                            <p>
+                                176 msnm                            
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Precipitación</h4>
+                            <p>
+                                La precipitación se presenta aproximadamente en un 26.67% de variación por temporadas.
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Temperatura Promedio de la Superficie</h4>
+                            <p>
+                                10.99 °C                            
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Velocidad del Viento</h4>
+                            <p>
+                                Se producen vientos de velocidad relativamente alta sobre los lagos Erie y Ontario, el este del lago Hurón y, en menor grado, a lo largo de la costa oriental del lago Michigan.
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Niveles de Agua del Lago</h4>
+                            <p>
+                                Los niveles de agua se presentan en un orden de 0,03 a 0,09 m (0,1 a 0,3 pies).
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Tipo de Agua</h4>
+                            <p>
+                                Agua Dulce                            
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Fauna</h4>
+                            <p>
+                                Chironomus spp., Dendroica caerulescens, Cladosceran, Perca flavescens, Ondatra zibethicus, Asellidae (Isopoda), Limnephilid (Trichoptera), Limnephilid, Caenid, Gyrinidae, Chaeoborus, Sciomyzidae.                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Flora</h4>
+                            <p>
+                                Primula mistassinica, Calamintha arkansana, Eleocharis rostellata, Parnassia
+                                glauca, Solidago houghtonii, Utricularia
+                                intermedia, Lathyrus palustris, Calamagrostis canadensis, Vallisneria americana, Phragmites australis.                                
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Utilidad a Nivel Económico y Comercial</h4>
+                            <p>
+                                El agua es usada como suministro de agua potable a nivel residencial por más de 200 comunidades de Illinois. En este lago se desarrolla la pesca y la navegación.
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Propuestas para Preservación del Ambiente</h4>
+                            <p>
+                                Reducir los productos químicos nocivos: Abordar las amenazas que representan para los lagos las sustancias químicas de interés mutuo, pues se ha detectado clordano y DDT (Dicloro difenil tricloroetano), que son sustancias nocivas para la salud humana y el medio ambiente.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--DEL_ELEMENTO_9-->
+        <div id="popup9" class="popup">
+            <div class="popup-contenido">
+                <div class="popup_title">
+                    <span class="cerrar" id="cerrarPopup9">ATRÁS</span>
+                    <h2>LAGUNA DE YAHUARCOCHA</h2>
+                </div>
+                <div><p class = "cierre">-</p></div>
+                <div class="popup_container_images">
+                    <img class="popup_images" src="lagunaYahuarcocha.png"/>
+                    <img class="popup_images" src="lagunaYahuarcocha2.png"/>
+                    <img class="popup_images" src="lagunaYahuarcocha3.png"/>
+                    <img class="popup_images" src="lagunaYahuarcocha4.png"/>
+                    <img class="popup_images" src="lagunaYahuarcocha5.png"/>
+                </div>
+                <p class = "cierre3">-</p>
+                <div class="popup_body">
+                    <div class="popup_container_cards">
+                        <div class="analysis_cards">
+                            <h4>Ubicación</h4>
+                            <p>
+                                A 3km aproximadamente de la ciudad de Ibarra, Imbabura, en un valle entre los volcanes de Imbabura y Cotacachi.                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Latitud y Longitud</h4>
+                            <p>
+                                0.3717385 / -78.1021466
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Otro Nombre</h4>
+                            <p>
+                                Lago de Sangre                            
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Antigüedad</h4>
+                            <p>
+                                12.000 años                            
+                            </p>
+                        </div>
+                        <!--<div class="analysis_cards">
+                            <h4>Clima</h4>
+                            <p>
+                                Templado con neblina y frío                            
+                            </p>
+                        </div>-->
+                        <div class="analysis_cards">
+                            <h4>Temperatura</h4>
+                            <p>
+                                Aproximadamente 12° C                      
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Altitud</h4>
+                            <p>
+                                2.180 msnm                            
+                            </p>
+                        </div>
+                        <!--<div class="analysis_cards">
+                            <h4>Origen</h4>
+                            <p>
+                                Gracial                            
+                            </p>
+                        </div>-->
+                        <div class="analysis_cards">
+                            <h4>Perímetro</h4>
+                            <p>
+                                7.970 m                          
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Profundidad Máxima</h4>
+                            <p>
+                                8m                            
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Propiedades</h4>
+                            <p>
+                                La contaminación de azufre que brota del suelo que circunda el Volcán Chiles.
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Advertencias</h4>
+                            <p>
+                                No apto para personas con hipertensión o problemas respiratorios.                            
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Fauna</h4>
+                            <p>
+                                Hay peces, tilapia, patos, patillos, cuturpillas, garzas, colibríes, tórtolas, gorriones, golondrinas, curiquingues y muchas otras especies.                            
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Flora</h4>
+                            <p>
+                                En los alrededores: Un bosque de eucaliptos.
+                                En las orillas: Guaba, eucaliptom aguacate, chirimoya, moras, frejol, cholán, supirosa, arucaria, molle e higuerilla.                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Propuestas para Preservación del Ambiente</h4>
+                            <p>
+                                Zonas de amortiguamiento: Con el objetivo de evitar que los cultivos no se sequen o disminuyan la cantidad de agua en el lago y así los animales y plantas naturales del lugar tengan espacio suficiente para su supervivencia.
+                                <br><br>
+                                Fomentar la pesca sostenible: Puesto que en este lago hay animales acuáticos muy consumidos como la tilapia y al disminuir su población alteraría todo el ecosistema presente en la laguna.
+                                <br><br>
+                                Barreras flotantes inteligentes: El desarrollo de estas barreras es importantísimo para que la basura que termina aquí no se acumule o por el simple hecho de que las especies no entren en contacto con ella en ninguna instancia.
+                                <br><br>
+                                Educación ambiental: Gracias a una cierta cantidad de habitantes que rodean esta laguna, sería crucial la fomentación de sus limitaciones, asumiendo que la cercana presencia puede perturbar el ecosistema.
+                                <br><br>
+                                Tratamiento de aguas residuales: Un análisis del 2020 en este lago arroja datos como presencia de coliformes, fenoles, metales pesados como hierro, plomo y zinc, significando una disminución de calidad de las aguas superficiales y subterráneas, poniendo en riesgo la salud de la población y de los ecosistemas.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--DEL_ELEMENTO_10-->
+        <div id="popup10" class="popup">
+            <div class="popup-contenido">
+                <div class="popup_title">
+                    <span class="cerrar" id="cerrarPopup10">ATRÁS</span>
+                    <h2>LAGO SUPERIOR</h2>
+                </div>
+                <div><p class = "cierre">-</p></div>
+                <div class="popup_container_images">
+                    <img class="popup_images" src="lagoSuperior.png"/>
+                    <img class="popup_images" src="lagoSuperior2.png"/>
+                    <img class="popup_images" src="lagoSuperior3.png"/>
+                    <img class="popup_images" src="lagoSuperior4.png"/>
+                    <img class="popup_images" src="lagoSuperior5.png"/>
+                </div>
+                <p class = "cierre3">-</p>
+                <div class="popup_body">
+                    <div class="popup_container_cards">
+                        <div class="analysis_cards">
+                            <h4>Ubicación</h4>
+                            <p>
+                                El lago es parte de la frontera internacional: al norte, está la provincia de Ontario, en Canadá; y al sur, los estados de Minnesota, Wisconsin y Míchigan, en Estados Unidos.
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Latitud y Longitud</h4>
+                            <p>
+                                47.7144587 /  -88.2115407
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Precipitación</h4>
+                            <p>
+                                La precipitación media anual oscila desde 50 cm en el oeste y 70-80 cm en el este.
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Temperatura Promedio de la Superficie</h4>
+                            <p>
+                                8.12 °C
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Cubierta de hielo</h4>
+                            <p>
+                                Se prevé que la capa de hielo en el Lago Superior disminuirá durante el siglo XXI debido al aumento de la temperatura. Para 2090, se espera que la cobertura de hielo en febrero sea solo del 2% al 11%. Además, la duración de la capa de hielo podría acortarse de 1 a 2 meses para 2100 debido al cambio climático.
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Velocidad del Viento</h4>
+                            <p>
+                                El aumento de la temperatura del aire y del agua del lago, junto con una reducción en el gradiente de temperatura entre ambos, probablemente incremente la velocidad del viento sobre el lago debido a la desestabilización de la capa atmosférica superficial.
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Niveles de Agua del Lago</h4>
+                            <p>
+                                Los niveles de agua pueden disminuir ligeramente, a partir de mediados de siglo, del orden de 0,1 a 0,2 m (0,3 a 0,7 pies).
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Utilidad a Nivel Cconómico y Comercial</h4>
+                            <p>
+                                El lago Superior se ha convertido en uno de los principales centros para el transporte marítimo nacional e internacional. En el lugar, se han desarrollado una gran cantidad de industrias relacionadas con la fabricación del papel y la pesca. Es suministro de agua potable para las comunidades de los alrededores.
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Fauna</h4>
+                            <p>
+                                Zooplancton Protozoos (Difflugia globulosa, Codonella sp.), Cladocera (Bosmina longispina, Daphnia retrocurva), Rotifera (Polyarthra vulgaris, Notholca longispira), Copepoda (Diaptomus ashlandi, Limnocalanus macrurus). Bentos Amphipoda (Pontopooreia affinis), Oligochaeta (Limnodrilus sp., Tubifex sp., Stylodrilus sp.), Mollusca (Pisidium sp.). Peces Alosa pseudoharengus, Oncorhynchus kisutch, O. tschawytscha, Perca flavescens, Osmerus sp., Stizostedion vitreum, Salvelinus namayucush, Coregonus.                            
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Flora</h4>
+                            <p>
+                                Macrófitos surgidos: Scirpus acutus, Scirpus americanus, Sparganium sp., Phragmites sp., Eleocharis sp.
+                                Macrófitos sumergidos: Nitella flexilis, Chara globularis, Isoetes riparia. Fitoplancton Cyclotella comensis, C. comita, C. glomerata, Coelastrum reticulatum, Tabellaria fenestrata, Asterionella formosa.
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Propuestas para Preservación del Ambiente</h4>
+                            <p>
+                                Reducir los productos químicos nocivos: Abordar las amenazas que representan para los lagos las sustancias químicas de interés mutuo, pues se han detectado bifenilos policlorados (PCB) en sedimentos, que son sustancias químicas artificiales que se sabe que causan daños a la salud humana y ambiental.
+                                <br><br>
+                                Involucrar a los pueblos indígenas: Apoyar la participación de los Pueblos Indígenas (los Ojibwa en el caso del Lago Superior) en los procesos de toma de decisiones y acciones para restaurar y proteger la calidad del agua de los lagos.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--DEL_ELEMENTO_11-->
+        <div id="popup11" class="popup">
+            <div class="popup-contenido">
+                <div class="popup_title">
+                    <span class="cerrar" id="cerrarPopup11">ATRÁS</span>
+                    <h2>LAGUNA DE PAÑACOCHA</h2>
+                </div>
+                <div><p class = "cierre">-</p></div>
+                <div class="popup_container_images">
+                    <img class="popup_images" src="lagunaPanacota.png"/>
+                    <img class="popup_images" src="lagunaPanacota2.png"/>
+                    <img class="popup_images" src="lagunaPanacota3.png"/>
+                    <img class="popup_images" src="lagunaPanacota4.png"/>
+                    <img class="popup_images" src="lagunaPanacota5.png"/>
+                </div>
+                <p class = "cierre3">-</p>
+                <div class="popup_body">
+                    <div class="popup_container_cards">
+                        <div class="analysis_cards">
+                            <h4>Ubicación</h4>
+                            <p>
+                                Se encuentra en territorio de la Comuna Kichwa San José de Guayusa.                            
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Latitud y Longitud</h4>
+                            <p>
+                                -12,6203 / -70,1169
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Dimensión</h4>
+                            <p>
+                                1100 m de largo
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Superficie</h4>
+                            <p>
+                                8km
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Ancho Máximo</h4>
+                            <p>
+                                25m
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Alojamiento</h4>
+                            <p>
+                                Se pueden encontrar algunos hoteles que ofrecen todas las comodidades.
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Precipitación</h4>
+                            <p>
+                                2405 mililitros cúbicos                            
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Estado del Agua</h4>
+                            <p>
+                                Presencia de material orgánico en descomposición.
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Profundidad</h4>
+                            <p>
+                                1m                            
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Altitud</h4>
+                            <p>
+                                180 msnm                            
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Temperatura</h4>
+                            <p>
+                                17 °C                            
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Clima</h4>
+                            <p>
+                                El clima que rodea este lugar es agradable, presenta temperatura que oscila entre los 17º C. como mínimo hasta los 33º C. como máximo.
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Accesibilidad</h4>
+                            <p>
+                                Desde Quito hay un tiempo de viaje de alrededor de 2 horas y 10 minutos en transporte terrestres, pero a este lugar se accede desde los tours de expedición pre-contratados.
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Actividades</h4>
+                            <p>
+                                En este lago, las actividades que se pueden hacer es la pesca, nadar y paseo en canoa.
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Requisitos para Visitar</h4>
+                            <p>
+                                No sufrir alguna lesión o problema de salud.                            
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Fauna</h4>
+                            <p>
+                                Aves: El tucán, paujil, loro, perico, guacamayo, mono chorongo, mico.
+                                Animales terrestres: Guanta, guatín, capiguara, venado, tigre, tigrillo y puerco sahino.
+                                Especies en Extinción: Esta laguna se ha hecho famosa por los delfines rosados, únicos en su especie.                            
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Flora</h4>
+                            <p>
+                                Se encuentra dentro de la zona de vida bosque húmedo tropical, siendo siempre verde de tierras.
+                                Posee una vegetación cuyo dosel tiene 30 metros de altura cuyas principales especies son Parkia sp.
+                                El sotobosque tiene una altura de 20 - 25 metros y el sotobosque de 15 - 20 metros, existiendo varios arbustos y hierbas en la parte baja del bosque.
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Propuestas para Preservación del Ambiente</h4>
+                            <p>
+                                Fomentar la pesca sostenible: Poder proteger las especies de esta laguna que está en peligro de extinción como los delfines rosados que es único en su especie.
+                                <br><br>
+                                Educación ambiental: Educar a los pueblos  que rodea a la laguna para poder prevenir la extinción de las especies y poder conservarlos para que la laguna posea una buena preservación.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--DEL_ELEMENTO_12-->
+        <div id="popup12" class="popup">
+            <div class="popup-contenido">
+                <div class="popup_title">
+                    <span class="cerrar" id="cerrarPopup12">ATRÁS</span>
+                    <h2>LAGO ONTARIO</h2>
+                </div>
+                <div><p class = "cierre">-</p></div>
+                <div class="popup_container_images">
+                    <img class="popup_images" src="lagoOntario.png"/>
+                    <img class="popup_images" src="lagoOntario2.png"/>
+                    <img class="popup_images" src="lagoOntario3.png"/>
+                    <img class="popup_images" src="lagoOntario4.png"/>
+                    <img class="popup_images" src="lagoOntario5.png"/>
+                </div>
+                <p class = "cierre3">-</p>
+                <div class="popup_body">
+                    <div class="popup_container_cards">
+                        <div class="analysis_cards">
+                            <h4>Ubicación</h4>
+                            <p>
+                                Limita al norte con Ontario (Canadá) y al sur con Nueva York (EE.UU.).
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Tipo de Agua</h4>
+                            <p>
+                                Agua Dulce                            
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Origen</h4>
+                            <p>
+                                Comenzó como un pequeño arroyo que gradualmente se fue ampliando a través de la erosión de suaves rocas silúricas a lo largo de miles de años. Este río se ensanchó y esculpió aún más por el poderoso movimiento de las capas de hielo continentales hace casi 20.000 años. El nivel, la forma y la dirección del flujo actuales del lago Ontario finalmente se establecieron hace aproximadamente 11.000 años.
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Superficie</h4>
+                            <p>
+                                7.340 millas cuadradas (19.011 kilómetros cuadrados)
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Extensión</h4>
+                            <p>
+                                311 km (193 millas) de largo y su ancho mayor es de 85 km (53 millas)                            
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Profundidad Máxima</h4>
+                            <p>
+                                244m
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Afluentes</h4>
+                            <p>
+                                El lago desemboca en el río San Lorenzo cerca de Kingston, Ontario.
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Altitud</h4>
+                            <p>
+                                74 m (243 pies) sobre el nivel del mar                            
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Latitud y Longitud</h4>
+                            <p>
+                                43.7263495 / -77.7101179                            
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Ancho Máximo</h4>
+                            <p>
+                                85km                             
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Clima</h4>
+                            <p>
+                                Invernal                            
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Problemas Ambientales</h4>
+                            <p>
+                                Al ser el más pequeño y el más poblado, el lago Ontario es el más vulnerable y amenazado de todos los Grandes Lagos. El lago es susceptible a la destrucción del hábitat, la contaminación, las especies invasoras y el clima cambiante.
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Temperatura del Aire</h4>
+                            <p>
+                                Oscila entre los 12°C y los 25°C.                            
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Temperatura del Agua</h4>
+                            <p>
+                                Oscila entre los 6°C y los 19°C.
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Corrientes de Aire</h4>
+                            <p>
+                                Incursiones de aire cálido desde el suroeste.
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Actividades que se Practican</h4>
+                            <p>
+                                Los recorridos en barco, cruceros, recorridos en helicóptero y taxi aéreo, ciclismo, natación, kayak, paseos en bote, turismo frente al mar, picnic y surf de remo. 
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Utilidad a Nivel Económico y Comercial</h4>
+                            <p>
+                                El agua es usada como suministro de agua potable a nivel residencial por varias comunidades de la provincia canadiense Ontario. En este lago se desarrolla la pesca y la navegación. 
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Fauna</h4>
+                            <p>
+                                Lucioperca, Northern Pike, Lubina, trucha de arroyo, Musky, Salmón, Trucha Arco Iris Migratoria, perca amarilla.                            
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Flora</h4>
+                            <p>
+                                Hierba carmín, Morera, Hydrocharis morsus-ranae, Hiedra Venenosa, Rhamnus cathartica, Arce negundo, Dulcamara, Vitis riparia, Echinacea purpurea, Salicaria, Hydrangea macrophylla, Lonicera maackii.                            
+                            </p>
+                        </div>
+                        <div class="analysis_cards">
+                            <h4>Propuestas para Preservación del Ambiente</h4>
+                            <p>
+                                Prevención de algas tóxicas y molestas: Manejar el exceso de concentraciones de nutrientes en los lagos para prevenir algas tóxicas y molestas. Las cargas de fósforo en el lago Ontario también provienen de diversas fuentes, incluida una importante contribución del lago Erie a través del río Niágara, así como de los principales centros urbanos, especialmente en el extremo occidental del lago.
+                                <br><br>
+                                Involucrar a los pueblos indígenas: Apoyar la participación de los Pueblos Indígenas en los procesos de toma de decisiones y acciones para restaurar y proteger la calidad del agua de los lagos, estos pueblos son: Los Inuit y los Métis.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
